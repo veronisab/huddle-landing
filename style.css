@@ -1,0 +1,73 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --pale-blue: hsl(207, 100%, 98%);
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: var(--dark-cyan);
+}
+
+img {
+    max-width:100%;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+
+.push {
+    margin-right: 0;
+    float: right;
+}
+
+.big {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: Poppins, sans-serif; 
+}
+/* BUTTONS */
+
+.filled-btn {
+    background-color: var(--pink);
+    border: 0;
+    border-radius: 50px;
+    color: var(--pale-blue);
+    height: 3em;
+    width: 17em;
+}
+
+.transparent-btn {
+    border: 1px solid;
+    background-color:# fff;
+    color: var(--pink);
+    border-radius: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--dark-cyan);
+    color: var(--pale-blue);
+    display: inline-block;
+}
+
+footer section {
+    max-width: 50%;
+}
